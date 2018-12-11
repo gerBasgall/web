@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale-1, minimun-scale=1">
     <title>ABC School</title>
     <!-- enlazo css con el doc html-->
-    <link rel="stylesheet" href="../Alumno/css/main.css">
+    <link rel="stylesheet" href="css/Alumno/main.css">
     
     <script src=""></script>
     
@@ -17,15 +17,14 @@
   <body>
     <header>
       <input type="checkbox" id="btn-menu">
-      <label for="btn-menu"><img src="img/cloud-with-three-menu-dots_icon-icons.com_56533.png"></label>
+      <label for="btn-menu"><img src="images/cloud-with-three-menu-dots_icon-icons.com_56533.png"></label>
       <nav class="menu">
         <ul>
-          <li><a href="">Inicio</a></li>
-          <li><a href="/Profesor/calendar.html">Cargar clases</a></li>
+          <li><a href="Inicio.jsp">Inicio</a></li>
+          <li><a href="CalendarioProfesor.jsp">Cargar clases</a></li>
           <li><a href="">Mi perfil</a></li>
-          <li><a href="">Opciones</a></li>
           <ul class="end">
-            <li><a href="">
+            <li><a href="Inicio.jsp">
               <span>Cerrar sesion</span>
               </a>
             </li>
@@ -45,7 +44,7 @@
         
       </div>
       
-    </main>-->
+    </main>
     <article>
       <h1>
         

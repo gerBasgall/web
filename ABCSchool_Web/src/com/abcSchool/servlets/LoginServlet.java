@@ -30,18 +30,6 @@ public class LoginServlet extends HttpServlet {
 		String usr = request.getParameter("usr");
 		String clave = request.getParameter("clave");
 		String rol = request.getParameter("rol");
-
-		try {
-			if(usr.equals("alum")) {
-				
-			} else if(usr.equals("prof")) {
-				
-			} else if(usr.equals("admin")){
-				
-			}
-		} catch (CommunicationException e) {
-			e.printStackTrace();
-		}
 	}
 
 }
